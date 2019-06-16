@@ -1,0 +1,25 @@
+{
+  "name": "GuessMind",
+  "version": "1.0.0",
+  "description": "testing Gulp and Socket io ",
+  "main": "index.js",
+  "repository": "https://github.com/apostkor/GuessMind.git",
+  "author": "어포스트 (apost) <45118109+apostkor@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server"
+  }
+}
